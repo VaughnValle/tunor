@@ -49,7 +49,7 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.15 }}
         >
-          <div className="flex flex-col gap-2 sm:flex-row mt-14 mb-24 sm:mb-40 justify-center">
+          <div className="flex flex-col gap-2 sm:flex-row mt-14 mb-24 sm:mb-30 justify-center">
             <button
               className="contained-button w-64 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0"
               onClick={() => setIsModalOpen(true)}
@@ -72,11 +72,15 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.15 }}
         >
           <div className="relative w-screen flex justify-center ">
+	  <a href="https://1bc330085765f6e2a3.gradio.live/" 
+	  className="w-4/5 2xl:w-[1100px] x-auto absolute z-10 hero-dashboard-border-gradient lg:top-6 xl:top-0"
+	  >
             <img
               src={dashboard.src}
               alt="Dashboard image"
-              className="w-4/5 2xl:w-[1200px] mx-auto absolute z-10 rounded-xl main-border-gray hero-dashboard-border-gradient lg:top-6 xl:top-0"
+	      className="x-0 absolute z-10 rounded-xl main-border-gray hero-dashboard-border-gradient lg:top-6 xl:top-0"
             />
+	  </a>
           </div>
         </motion.div>
         <div className="relative w-screen flex justify-center ">
