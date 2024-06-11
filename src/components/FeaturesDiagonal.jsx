@@ -33,7 +33,7 @@ export const FeaturesDiagonal = () => {
           <div className="w-3/4 lg:w-1/2 flex flex-col lg:mx-unset mx-auto">
             <span className="block-subtitle">Accelerate Your Success</span>
             <h2 className="mt-10 mb-8 text-4xl lg:text-5xl block-big-title">
-              Export &amp; Deploy with Ease
+              Export &amp; Deploy Easily
             </h2>
             <p className="mb-16 text-secondaryText leading-loose">
               Our platform enables you to launch your data-driven projects with

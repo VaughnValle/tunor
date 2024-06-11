@@ -44,7 +44,7 @@ export const Features1 = () => {
             </div>
           </div>
           <div className="w-full mx-auto lg:w-1/2 flex flex-wrap lg:-mx-4 sm:pr-8 lg:pt-10 justify-center lg:pl-4 xl:px-8">
-            <div className="mb-8 lg:mb-0 w-full sm:w-1/2 px-2 lg:px-0">
+            <div className="mb-8 lg:mb-0 w-full sm:w-3/4 px-2 lg:px-0">
               <div className="mb-4 py-3 pl-3 pr-2 rounded">
                 <img
                   src={feature1.src}

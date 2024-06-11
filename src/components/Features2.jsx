@@ -28,7 +28,7 @@ export const Features2 = () => (
           <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
             <span className="block-subtitle">Make Data-Driven Decisions</span>
             <h2 className="mt-6 mb-8 text-4xl lg:text-5xl block-big-title">
-              Chat with your Model
+              Interact via Chat
             </h2>
             <p className="mb-12 text-secondaryText leading-loose">
               Monitor and track data issues with ease using our intuitive and
